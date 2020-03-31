@@ -1,10 +1,12 @@
 # Tareas 
 
-- Si da un error volver al html
 - Todos los echo los tengo que meter en alert
 - hasear las contraseñas ¿haseo todos los datos?
-- mirar los directos
 - ¿Se puede tener varios php?
+- Sacar un valor de un intput y meterlo en un php (creo que es por js)
+- Cuadrar todos los datos de los usuarios y series 
+- Poner Url bonitas o Hasearlas 
+- 
 # Base de datos 
 | id | Nombre | Apellido | Contraseña | Correo | fecha de nacimiento|
 # Login
@@ -209,4 +211,12 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+```
+## Directo 
+```html
+
+<video  width="640" height="480" controls>
+ <source src="aitana.mp4" type="video/mp4">
+</video>
+
 ```
