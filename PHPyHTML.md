@@ -149,7 +149,7 @@ if(! ($_POST['username'] == $usuario && $hashed == $pass) )
 </body>
 </html>
 ```
-##Estrellas
+## Estrellas
 ```html
 <head><LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen></head>
 <h1>Pure CSS Star Rating Widget</h1>
