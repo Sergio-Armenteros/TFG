@@ -1,0 +1,22 @@
+<center>
+<form action="registro.php" method="post">
+<label>Nombre del Usuario :</label>
+<input id="name" name="reusername" placeholder="Nombre" type="text" ppattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]{2,48}" required>
+<label>Apellidos :</label>
+<input id="name" name="reapellido" placeholder="Apellido" type="text" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]2,64}" required>
+<br>
+<label>Contraseña :</label>
+<input id="password" name="repassword" placeholder="**********" type="password" pattern="[A-Za-z0-9]{8,12}" required>
+<br>
+<label>Vuelva a escribir la contraseña</label>
+<input id="password" name="reepassword" placeholder="**********" type="password" pattern="[A-Za-z0-9]{8,12}" required>
+<br>
+<label>Correo electronico :</label>
+<input id="name" name="reemail" placeholder="ejemplo@ejemplo.com" type="email" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required/>
+<br>
+<label>Fecha de nacimiento :</label>
+<input id="name" name="refecha" placeholder="ejemplo@ejemplo.com" type="date" >
+<br>
+
+<input name="submit" type="submit" value="Login ">
+</form></center>
