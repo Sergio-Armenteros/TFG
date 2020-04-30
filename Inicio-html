@@ -1,0 +1,11 @@
+<center>
+<form action="login.php" method="post">
+<label>Nombre del Usuario :</label>
+<input id="name" name="username" placeholder="Nombre" type="text" ppattern="[a-zA-Z颬瞅蜲acce鴇膹ei擨闀ln覷鐇蘧╭uuz鼩csz擱薩藷ACCEE帊昅恘ILN眑婐欷欹詘UUY幊Z桋釀SZ?礑{2,48}" required>
+<br>
+<label>Contrase鎙 :</label>
+<input id="password" name="password" placeholder="**********" type="password" pattern="[A-Za-z0-9]{8,12}" required>
+<br>
+<a href="registrarse.html">Resgistrate aqui </a>
+<input name="submit" type="submit" value="Login ">
+</form></center>
